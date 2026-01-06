@@ -1,0 +1,41 @@
+body {
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+}
+
+.card {
+    background-color: #ffffdd;
+    color: #222222;
+    font-family: monospace;
+    border: 1px solid gray;
+    box-shadow: 2px 4px 10px black;
+}
+
+/*
+Sample card 
+
+     ^
+     |
+     |
+     |
+DATE o Title                |¯¯¯¯¯¯|
+     | Author(s)            | Pic. |  
+     | Media type           |______|   
+     |
+     | Description Description Description Description
+     | Description Description Description Description
+     | Description Description Description Description
+     |
+     | ISBN/ID & Edition
+     |
+     v
+
+Each entry is surrounded by a thin, dark border and has a shallow drop shadow, as if it were a physical card.
+The cards are slightly tilted and have an aged appearance: off-white with gray text.
+There is a small vertical margin between each card.
+The pic is a preview image of the document and is no taller than the first three lines.
+
+On click, the user is taken to the document.
+On hover, the card moves slightly.
+*/

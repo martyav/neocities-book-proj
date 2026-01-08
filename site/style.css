@@ -9,7 +9,23 @@ body {
     color: #222222;
     font-family: monospace;
     border: 1px solid gray;
-    box-shadow: 2px 4px 10px black;
+    box-shadow: 2px 4px 10px gray;
+    margin: 15px 8px;
+    padding: 10px;
+}
+
+.title-text {
+    font-weight: bold;
+}
+
+.date-text {
+   font-size: 1.25rem; 
+}
+
+.card img {
+    border: 1px solid gray;
+    margin: 5px;
+    justify-content: right;
 }
 
 /*

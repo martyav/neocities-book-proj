@@ -5,21 +5,25 @@ body {
 }
 
 .card {
+    display: inline-block;
     background-color: #ffffdd;
     color: #222222;
     font-family: monospace;
-    border: 1px solid gray;
-    box-shadow: 2px 4px 10px gray;
+    border: 1px solid #ddddee;
+    box-shadow: 2px 4px 20px gray;
     margin: 15px 8px;
     padding: 10px;
+    transform: rotate(0.25deg)
 }
 
-.title-text {
+.label-text {
+    display: inline;
     font-weight: bold;
 }
 
 .date-text {
-   font-size: 1.25rem; 
+    display: inline;
+    font-size: 1.25rem;
 }
 
 .card img {

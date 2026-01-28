@@ -4,8 +4,14 @@ body {
     font-size: 1rem;
 }
 
+/*li {
+    display: flex;
+    flex-direction: column;
+}*/
+
 .card {
-    display: inline-block;
+    max-width: 50%;
+    max-height: 33%;
     background-color: #ffffdd;
     color: #222222;
     font-family: monospace;
@@ -13,7 +19,7 @@ body {
     box-shadow: 2px 4px 20px gray;
     margin: 15px 8px;
     padding: 10px;
-    transform: rotate(0.25deg)
+    transform: rotate(0.25deg);
 }
 
 .label-text {
@@ -22,8 +28,13 @@ body {
 }
 
 .date-text {
-    display: inline;
     font-size: 1.25rem;
+}
+
+.title-text {
+    font-size:1.25;
+    margin-bottom: 4px;
+
 }
 
 .card img {
